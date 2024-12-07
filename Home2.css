@@ -21,7 +21,6 @@ menu {
     display: flex;
     flex-direction: column;
     grid-row: 1/4;
-    border: 1px solid black;
 }
 .logo {
     display: flex;
@@ -100,6 +99,7 @@ main {
     background-color: #d9d9d9;
     width: 100%;
     height: 282px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .price {
     display: flex;
@@ -121,6 +121,7 @@ main {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 #b1 img, #b2 img, #b3 img, #b4 img, #b5 img, #b6 img, #b7 img, #b8 img, #b9 img, #b10 img, #b11 img, #b12 img {
     display: flex;
