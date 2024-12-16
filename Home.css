@@ -188,7 +188,7 @@ main {
 
 
 
-@media (min-width: 420px) {
+@media (min-width: 380px) {
     /* For small screens like mobile devices */
     header {
         display: flex;
