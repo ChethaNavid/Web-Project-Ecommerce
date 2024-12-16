@@ -13,7 +13,7 @@ a {
 }
 body {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 180px auto;
     grid-template-rows: 100px auto;
     column-gap: 2rem;
 
@@ -191,6 +191,13 @@ main {
 
 @media (min-width: 380px) {
     /* For small screens like mobile devices */
+    body {
+        grid-template-columns: 150px auto;
+    }
+    .logo {
+        height: 150px;
+        justify-content: center;
+    }
     header {
         display: flex;
         justify-content: space-between;
@@ -218,6 +225,13 @@ main {
 }
 
 @media (min-width: 760px) {
+    body {
+        grid-template-columns: 180px auto;
+    }
+    .logo {
+        height: 200px;
+        justify-content: center;
+    }
     .grid-container {
         grid-template-columns: repeat(3, 1fr); 
     }

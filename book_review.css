@@ -13,7 +13,7 @@ a {
 }
 body {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 180px auto;
     grid-template-rows: 100px auto;
     column-gap: 2rem;
 
