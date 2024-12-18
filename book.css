@@ -122,8 +122,11 @@ main {
     background-color: #9AB5AE;
     border: none;
     border-radius: 50px;
-    width: 100%;
+    width: 40%;
     height: 30px;
+}
+button:hover {
+    background-color: #819C94; /* A slightly darker shade */
 }
 .material-icons {
     color: transparent;
@@ -160,9 +163,16 @@ main {
 
 
 
-@media(min-width: 380px) and (max-width: 1024px) {
+@media(min-width: 380px) and (max-width: 599px) {
     body {
-        grid-template-columns: auto auto;
+        grid-template-columns: 150px auto;
+    }
+    .logo {
+        height: 150px;
+        justify-content: center;
+    }
+    .head-icons {
+        display: none;
     }
     .search-bar {
         width: 80%;
@@ -183,7 +193,57 @@ main {
     }
     .button {
         flex-direction: column;
-        margin: 0 10rem;
+        align-items: center;
+        width: 100%;
+    }
+    .button button {
+        width: 80%;
+    }
+    .bottom {
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0;
+    }
+    .left-bot {
+        margin-top: 2rem;
+        margin-left: -0.1rem;
+        width: 90%;
+    }
+    .right-bot {
+        margin-bottom: 2rem;
+    }
+}
+@media(min-width: 600px) and (max-width: 1024px) {
+    body {
+        grid-template-columns: 180px auto;
+    }
+    .logo {
+        justify-content: center;
+    }
+    .search-bar {
+        width: 70%;
+    }
+    .book-display {
+        flex-direction: column;
+        margin: 0;
+        gap: 2rem;
+        width: 100%;
+    }
+    .book-cover {
+        display: flex;
+        justify-content: center;
+    }
+    .about {
+        margin: 0;
+        width: 100%;
+    }
+    .button {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .button button {
+        width: 50%;
     }
     .bottom {
         flex-direction: column;
