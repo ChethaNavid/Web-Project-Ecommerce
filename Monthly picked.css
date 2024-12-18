@@ -131,59 +131,65 @@ main {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Book 13 */
+#b1 {
+    background: linear-gradient(to bottom, #ffe4e1 80%, #d9d9d9 20%); /* Light Pink */
+}
+
+/* Book 14 */
 #b2 {
-    background: linear-gradient(to bottom, #add8e6 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #f0f8ff 80%, #d9d9d9 20%); /* Alice Blue */
 }
+
+/* Book 15 */
 #b3 {
-    background: linear-gradient(to bottom, black 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #ffdab9 80%, #d9d9d9 20%); /* Peach Puff */
 }
+
+/* Book 16 */
 #b4 {
-    background: linear-gradient(to bottom, #1E3A8A 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #ffe4b5 80%, #d9d9d9 20%); /* Moccasin */
 }
+
+/* Book 17 */
 #b5 {
-    background: linear-gradient(to bottom, #e96d0d 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #f0fff0 80%, #d9d9d9 20%); /* Honeydew */
 }
+
+/* Book 18 */
 #b6 {
-    background: linear-gradient(to bottom, #FAF3F0 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #d8bfd8 80%, #d9d9d9 20%); /* Thistle */
 }
+
+/* Book 19 */
 #b7 {
-    background: linear-gradient(to bottom, #1E3A8A 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #f5f5dc 80%, #d9d9d9 20%); /* Beige */
 }
+
+/* Book 20 */
 #b8 {
-    background: linear-gradient(to bottom, #7A9E9F 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #e6e6fa 80%, #d9d9d9 20%); /* Lavender */
 }
+
+/* Book 21 */
 #b9 {
-    background: linear-gradient(to bottom, #1E3A8A 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #ffebcd 80%, #d9d9d9 20%); /* Blanched Almond */
 }
+
+/* Book 22 */
 #b10 {
-    background: linear-gradient(to bottom, teal 80%, #d9d9d9 20%);
-
+    background: linear-gradient(to bottom, #faf0e6 80%, #d9d9d9 20%); /* Linen */
 }
+
+/* Book 23 */
 #b11 {
-    background: linear-gradient(to bottom, #fcce03 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #fffacd 80%, #d9d9d9 20%); /* Lemon Chiffon */
 }
+
+/* Book 24 */
 #b12 {
-    background: linear-gradient(to bottom, #013220 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #add8e6 80%, #d9d9d9 20%); /* Light Blue */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

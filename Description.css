@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #e7d1c7;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+    color: #000; /* Icons black */
+    cursor: pointer;
+}
+
+/* Main Content */
+.content {
+    margin-left: 240px;
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.head-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.head-icons span {
+    font-size: 1.5em;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Book Section Header */
+.section-header {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Book Details Section */
+.book-details {
+    display: flex;
+    align-items: flex-start; /* Align everything to the top */
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.book-image img {
+    width: 350px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.book-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.author-name {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.short-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.book-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.wishlist-btn, .cart-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wishlist-btn {
+    background-color: #e7d1c7;
+    color: #000;
+}
+
+.cart-btn {
+    background-color: #5ca47a;
+    color: white;
+}
+
+/* Parallel Columns */
+.book-columns {
+    display: flex;
+    gap: 40px;
+}
+
+.description-column, .author-column {
+    flex: 1;
+}
