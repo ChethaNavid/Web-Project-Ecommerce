@@ -23,7 +23,7 @@ menu {
     background-color: #dfcabb;
     display: flex;
     flex-direction: column;
-    grid-row: 1/4;
+    grid-row: 1/5;
 }
 .logo {
     display: flex;
