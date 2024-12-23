@@ -7,9 +7,13 @@ a {
     text-decoration: none;
     color: black;
 }
+.material-icons {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
 body {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 180px auto;
     grid-template-rows: 100px auto;
     column-gap: 2rem;
 
@@ -96,7 +100,6 @@ main {
     border: 1px solid #ccc;
 }
 .content {
-    background-color: #d9d9d9;
     width: 100%;
     height: 282px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
@@ -106,7 +109,7 @@ main {
     justify-content: center;
 }
 #b1 {
-    background: linear-gradient(to bottom, #2e4f3e 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #2e4f3e 80%, white 20%);
 
 }
 .img-container a {
@@ -121,7 +124,6 @@ main {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
 }
 #b1 img, #b2 img, #b3 img, #b4 img, #b5 img, #b6 img, #b7 img, #b8 img, #b9 img, #b10 img, #b11 img, #b12 img {
     display: flex;
@@ -132,46 +134,46 @@ main {
 }
 
 #b2 {
-    background: linear-gradient(to bottom, #add8e6 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #add8e6 80%, white 20%);
 
 }
 #b3 {
-    background: linear-gradient(to bottom, black 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, black 80%, white 20%);
 
 }
 #b4 {
-    background: linear-gradient(to bottom, #1E3A8A 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #1E3A8A 80%, white 20%);
 
 }
 #b5 {
-    background: linear-gradient(to bottom, #e96d0d 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #e96d0d 80%, white 20%);
 
 }
 #b6 {
-    background: linear-gradient(to bottom, #FAF3F0 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #FAF3F0 80%, white 20%);
 
 }
 #b7 {
-    background: linear-gradient(to bottom, #1E3A8A 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #1E3A8A 80%, white 20%);
 
 }
 #b8 {
-    background: linear-gradient(to bottom, #7A9E9F 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #7A9E9F 80%, white 20%);
 
 }
 #b9 {
-    background: linear-gradient(to bottom, #1E3A8A 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #1E3A8A 80%, white 20%);
 
 }
 #b10 {
-    background: linear-gradient(to bottom, teal 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, teal 80%, white 20%);
 
 }
 #b11 {
-    background: linear-gradient(to bottom, #fcce03 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #fcce03 80%, white 20%);
 }
 #b12 {
-    background: linear-gradient(to bottom, #013220 80%, #d9d9d9 20%);
+    background: linear-gradient(to bottom, #013220 80%, white 20%);
 }
 
 
@@ -187,50 +189,64 @@ main {
 
 
 
-@media (max-width: 599px) {
+@media (min-width: 380px) {
     /* For small screens like mobile devices */
-    body {
-        grid-template-columns: 1fr; /* 1 column layout */
-        grid-template-rows: auto auto; /* Adjust rows */
-    }
-
     header {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
     }
-
+    body {
+        grid-template-columns: 150px auto;
+    }
+    .logo {
+        height: 150px;
+        justify-content: center;
+    }
     .grid-container {
-        display: grid;
-        grid-template-columns: 1fr; /* Single column layout */
-        gap: 1rem;
-        padding: 1rem;
+        grid-template-columns: 1fr;
     }
-
     .search-bar {
-        width: 80%; /* Make search bar smaller on mobile */
+        width: 80%;
     }
-
     .head-icons {
         display: none;
-        width: 100%;
-        justify-content: space-evenly;
     }
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
+@media (min-width: 549px) {
     .grid-container {
-        grid-template-columns: repeat(2, 1fr); /* 3 columns for medium screens */
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .head-icons {
+        display: flex;
     }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 760px) {
+    body {
+        grid-template-columns: 180px auto;
+    }
+    .logo {
+        height: 200px;
+        justify-content: center;
+    }
     .grid-container {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    header {
+        display: flex;
+        gap: 0rem;
     }
 }
 
 @media (min-width: 1024px) {
     .grid-container {
-        grid-template-columns: repeat(6, 1fr); /* 6 columns for large screens */
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+@media (min-width: 1240px) {
+    .grid-container {
+        grid-template-columns: repeat(6, 1fr); 
     }
 }
