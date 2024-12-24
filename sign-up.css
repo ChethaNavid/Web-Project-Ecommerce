@@ -34,7 +34,6 @@ body {
     margin: 15px;
     border-radius: 0.5em;
     background-color: white;
-    width: 400px;
 }
 header {
     background-color: #e6e8eb;
@@ -61,6 +60,9 @@ main {
     border: 1px solid grey;
     background-color: white;
     color: black;
+}
+.sign-up-options button:hover {
+    background-color: #e0e0e0;
 }
 .sign-up-options a {
     text-decoration: none;
@@ -104,7 +106,7 @@ footer {
     display: flex;
     align-items: center;
 }
-button:hover {
+.button-container button:hover {
     background-color: rgb(50, 200, 190);
 }
 
