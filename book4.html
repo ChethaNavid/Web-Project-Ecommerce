@@ -61,6 +61,53 @@
             </span>
         </div>
     </header>
+    <input type="checkbox" id="modal-toggle" class="modal-toggle">
+
+
+    <div class="payment-modal">
+        <div class="modal-content">
+            <label for="modal-toggle" class="close-button">
+                <span class="material-icons">close</span>
+            </label>
+            
+            <div class="modal-header">
+                <h2>Confirm Purchase</h2>
+                <br>
+                <p>Please review your order details</p>
+            </div>
+
+            <div class="order-details">
+                <div class="detail-row">
+                    <span>Book Title:</span>
+                    <span>The Final Victory</span>
+                </div>
+                <div class="detail-row">
+                    <span>Format:</span>
+                    <span>Paperback</span>
+                </div>
+                <div class="detail-row">
+                    <strong>Total:</strong>
+                    <strong>$15.99</strong>
+                </div>
+            </div>
+
+            <div class="payment-method">
+                <h3>Payment Method</h3>
+                <div class="card-display">
+                    <div class="card-info">
+                        <div class="card-icon"></div>
+                        <span>•••• 4242</span>
+                    </div>
+                    <span>Default</span>
+                </div>
+            </div>
+
+            <div class="modal-buttons">
+                <label for="modal-toggle" class="cancel-btn">Cancel</label>
+                <label for="modal-toggle" class="confirm-btn">Confirm payment</label>
+            </div>
+        </div>
+    </div>
     <main>
         <div class = "book-display">
             <div class = "book-cover">
@@ -84,10 +131,10 @@
                         </a>
                     </button>
                     <button>
-                        <a href = "#">
-                            <span class = "material-icons">shopping_cart</span>
+                        <label for="modal-toggle" style="cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%;">
+                            <span class="material-icons">shopping_cart</span>
                             <span>Add to Cart</span>
-                        </a>
+                        </label>
                     </button>
                 </div>
             </div>
