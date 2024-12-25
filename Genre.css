@@ -214,7 +214,6 @@ main {
     .logo {
         height: 150px;
         justify-content: center;
-        align-items: center;
     }
     .grid-container {
         grid-template-columns: 1fr;
@@ -226,7 +225,6 @@ main {
         display: none;
     }
 }
-
 @media (min-width: 540px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr); 

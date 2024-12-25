@@ -136,6 +136,7 @@ main {
     height: 180px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
+
 #b2 {
     background: linear-gradient(to bottom, #add8e6 80%, white 20%);
 
