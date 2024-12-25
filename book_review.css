@@ -166,3 +166,77 @@ hr{
 .genre_word{
     font-weight: bold;
 }
+@media(min-width: 380px) and (max-width: 599px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    menu {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    menu.active {
+        transform: translateX(0);
+    }
+
+    header {
+        grid-column: 1;
+        padding: 1rem;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        grid-column: 1;
+        padding: 1rem;
+    }
+
+    .head-icons {
+        gap: 1rem;
+    }
+
+    .search-bar {
+        max-width: none;
+    }
+
+    .left_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review {
+        margin-left: 0;
+    }
+
+    .book_title {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 1024px) {
+    body {
+        grid-template-columns: 180px auto;
+    }
+
+    .logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-bar {
+        width: 70%;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .left_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

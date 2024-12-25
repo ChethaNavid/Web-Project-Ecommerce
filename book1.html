@@ -61,6 +61,53 @@
             </span>
         </div>
     </header>
+    <input type="checkbox" id="modal-toggle" class="modal-toggle">
+
+
+    <div class="payment-modal">
+        <div class="modal-content">
+            <label for="modal-toggle" class="close-button">
+                <span class="material-icons">close</span>
+            </label>
+            
+            <div class="modal-header">
+                <h2>Confirm Purchase</h2>
+                <p>Please review your order details</p>
+            </div>
+
+            <div class="order-details">
+                <div class="detail-row">
+                    <span>Book Title:</span>
+                    <span>The Atlas Six</span>
+                </div>
+                <div class="detail-row">
+                    <span>Format:</span>
+                    <span>Paperback</span>
+                </div>
+                <div class="detail-row">
+                    <strong>Total:</strong>
+                    <strong>$24.99</strong>
+                </div>
+            </div>
+
+            <div class="payment-method">
+                <h3>Payment Method</h3>
+                <div class="card-display">
+                    <div class="card-info">
+                        <div class="card-icon"></div>
+                        <span>•••• 4242</span>
+                    </div>
+                    <span>Default</span>
+                </div>
+            </div>
+
+Mao Sothyda ( ម៉ៅសុធីតា) group 8, [12/25/2024 6:10 PM]
+<div class="modal-buttons">
+                <label for="modal-toggle" class="cancel-btn">Cancel</label>
+                <button class="confirm-btn">Confirm Payment</button>
+            </div>
+        </div>
+    </div>
     <main>
         <div class = "book-display">
             <div class = "book-cover">
@@ -77,18 +124,18 @@
                     <p>A dark academic debut fantasy with an established cult following that reads 
                         like The Secret History meets The Umbrella Academy.</p>
                 </div>
-                <div class = "button">
+                <div class="button">
                     <button>
-                        <a href = "#">
-                            <span class = "material-icons">favorite</span>
+                        <a href="#">
+                            <span class="material-icons">favorite</span>
                             <span>Add to Wishlist</span>
                         </a>
                     </button>
-                    <button>
-                        <a href = "#">
-                            <span class = "material-icons">shopping_cart</span>
+                    <button style="display: flex; justify-content: center;">
+                        <label for="modal-toggle" style="cursor: pointer; display: flex; align-items: center; gap: 10px;">
+                            <span class="material-icons">shopping_cart</span>
                             <span>Add to Cart</span>
-                        </a>
+                        </label>
                     </button>
                 </div>
             </div>
@@ -137,8 +184,6 @@
                     <p>ISBN-13: 978-1250854513</p>
                 </div>
             </div>
-            
-        </div>
     </main>
 </body>
 </html>
